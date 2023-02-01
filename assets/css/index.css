@@ -211,7 +211,7 @@ a:visited {
     background-size: cover;
     display: flex;
     justify-content: center;
-    height: 386px;
+    height: 380px;
     overflow: hidden;
     width: 47.7%
   }
@@ -238,7 +238,7 @@ a:visited {
     left: 4%;
     position: absolute;
     top: 32%;
-    width: 30%
+    width: 40%
   }
 
   .rated-right-caption {
@@ -252,7 +252,7 @@ a:visited {
     left: 52%;
     position: absolute;
     top: 32%;
-    width: 30%
+    width: 40%
   }
 
   .rated-image h1 {
@@ -287,7 +287,7 @@ a:visited {
     justify-content: center;
     overflow: hidden;
     position: relative;
-    width: 60%
+    width: 57%
   }
 
   .slide {
@@ -295,6 +295,7 @@ a:visited {
   }
 
   .slide img {
+    height: 480px;
     width: 100%
   }
 
