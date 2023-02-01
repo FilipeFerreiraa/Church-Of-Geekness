@@ -8,7 +8,7 @@
 }
 
 .html {
-  -webkit-tap-highlight-color: var(--color-no-color)
+  -webkit-tap-highlight-color: var(--color-no-color);
 }
 
 body {
@@ -25,7 +25,51 @@ a:visited {
   text-decoration: none
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 0px) {
+  .header-container {
+    align-items: center;
+    background-color: var(--color-black);
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    width: 100%
+  }
+
+  .header-title {
+    align-items: center;
+    display: flex;
+    font-size: 3.4vw;
+    font-weight: 700;
+    height: 80px;
+    justify-content: center;
+    width: 20%;
+  }
+
+  .header-nav {
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+    font-weight: 500;
+    height: 80px;
+    justify-content: space-around;
+    width: 45%
+  }
+
+  .header-links {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    width: 15%;
+  }
+
+  .header-links svg {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .header-container {
     align-items: center;
     background-color: var(--color-black);
