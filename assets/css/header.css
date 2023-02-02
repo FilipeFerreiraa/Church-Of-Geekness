@@ -3,7 +3,8 @@
   --color-white: rgba(255, 255, 255, 1);
   --color-brown-grey: rgba(73, 73, 73, 1);
   --color-plastic-black: #0f0f0f;
-  --color-dark-orange: #db4900;
+  --color-dark-orange: rgb(219, 73, 0);
+  --color-light-orange: rgba(181, 60, 0, 0.374);
   --color-no-color: rgba(0, 0, 0, 0);
 }
 
@@ -68,7 +69,7 @@ a:visited {
 
   .open {
     display: flex;
-    height: 350px;
+    height: 450px;
     transition-duration: 1s;
   }
   .close {
@@ -82,14 +83,14 @@ a:visited {
     color: var(--color-white);
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 450px;
     justify-content: space-between;
     padding: 10px 0;
     width: 100%;
   }
 
   .mobile-nav a {
-    border-bottom: 1px solid var(--color-plastic-black);
+    border-bottom: 1px solid var(--color-light-orange);
     padding: 0 0 10px 0;
     text-align: center;
     width: 90%;

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <script src="./script/nav.js" defer></script>
     <title>Church of Geekness | Fresh</title>
   </head>
   <body>
@@ -27,7 +28,36 @@
         <a href="./series.html">Séries</a>
         <a href="./about.html">Sobre Nós</a>
       </div>
+      <div class="header-button-container">
+        <button class="header-button" type="button" onclick="toggle_menu()"></button>
+      </div>
       <div class="header-links">
+        <a href="https://twitter.com/CGeekness" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+            <g transform="scale(5.12,5.12)">
+            <path d="M50.0625,10.4375c-1.84766,0.82031 -3.82812,1.37109 -5.91016,1.62109c2.125,-1.27344 3.75781,-3.28906 4.52344,-5.6875c-1.98437,1.17578 -4.19141,2.03125 -6.53125,2.49219c-1.875,-2 -4.54687,-3.24609 -7.50391,-3.24609c-5.67969,0 -10.28516,4.60156 -10.28516,10.28125c0,0.80469 0.09375,1.58984 0.26953,2.34375c-8.54687,-0.42969 -16.12109,-4.52344 -21.19531,-10.74609c-0.88672,1.52344 -1.39062,3.28906 -1.39062,5.17187c0,3.56641 1.8125,6.71484 4.57422,8.5625c-1.6875,-0.05469 -3.27344,-0.51953 -4.66016,-1.28906c0,0.04297 0,0.08594 0,0.12891c0,4.98438 3.54688,9.13672 8.24609,10.08594c-0.85937,0.23438 -1.76953,0.35938 -2.70703,0.35938c-0.66406,0 -1.30859,-0.0625 -1.9375,-0.1875c1.3125,4.08203 5.10938,7.0625 9.60547,7.14453c-3.51562,2.75781 -7.94922,4.39844 -12.76953,4.39844c-0.83203,0 -1.64844,-0.04687 -2.44922,-0.14453c4.54687,2.92188 9.95312,4.62109 15.76172,4.62109c18.91406,0 29.25781,-15.66797 29.25781,-29.25391c0,-0.44531 -0.01172,-0.89453 -0.02734,-1.33203c2.00781,-1.44922 3.75,-3.26172 5.12891,-5.32422z"></path></g></g>
+          </svg>
+        </a>
+        <a href="https://instagram.com/cgeekness" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+            <g transform="scale(5.12,5.12)">
+            <path d="M16,3c-7.17,0 -13,5.83 -13,13v18c0,7.17 5.83,13 13,13h18c7.17,0 13,-5.83 13,-13v-18c0,-7.17 -5.83,-13 -13,-13zM37,11c1.1,0 2,0.9 2,2c0,1.1 -0.9,2 -2,2c-1.1,0 -2,-0.9 -2,-2c0,-1.1 0.9,-2 2,-2zM25,14c6.07,0 11,4.93 11,11c0,6.07 -4.93,11 -11,11c-6.07,0 -11,-4.93 -11,-11c0,-6.07 4.93,-11 11,-11zM25,16c-4.96,0 -9,4.04 -9,9c0,4.96 4.04,9 9,9c4.96,0 9,-4.04 9,-9c0,-4.96 -4.04,-9 -9,-9z"></path></g></g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="mobile-nav-container close" id="mobile-nav-container">
+      <div class="mobile-nav">
+        <a href="./index.html">Pagina Inicial</a>
+        <a href="./animes.html">Animes</a>
+        <a href="./movies.html">Filmes</a>
+        <a href="./games.html">Jogos</a>
+        <a href="./music.html">Músicas</a>
+        <a href="./podcasts.html">Podcasts</a>
+        <a href="./series.html">Séries</a>
+        <a href="./about.html">Sobre Nós</a>
         <a href="https://twitter.com/CGeekness" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256" style="fill:#000000;">
             <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
@@ -54,14 +84,14 @@
         <p>
           Durante os primeiros trinta minutos, existe a ilusão de que possamos estar assistindo à somente mais um filme de romance, pois além de uma trama que avança vagarosamente, o intuito maior nesse início é estabelecer nossa personagem principal: Noa.
           Esclarecendo ao público qual sua personalidade, seus defeitos e objetivos. Já a figura do personagem Steve interpretado por Sebastian Stan torna-se propositalmente misteriosa e inicialmente não é possível saber nada com clareza sobre ele.
-        </p>
-        <img src="./assets/images/fresh-img.jpg" alt="fleabag">
-        <p>
+          <br>
+          <br>
           A trama inicial do filme aborda essencialmente a vida amorosa de Noa: ela está cansada de ir em encontros resultantes de matchs duvidosos em uma plataforma de namoro. Justamente por isso, ela decide dar uma chance para Steve: um sujeito descontraído que tenta conquistar sua atenção no meio de um supermercado. Apesar de ser um começo inusitado, os dois iniciam uma série de encontros casuais e através disso vão se tornando cada vez mais íntimos, algo que resulta numa decisão precipitada de viajar em conjunto.
           É a partir dessa viagem que as coisas começam a dar errado.
           Pelo fato de usar altas doses de quebra da quarta parede, Waller-Bridge é capaz de criar em sua série uma proximidade maior entre o público e a personagem, como se não estivéssemos apenas observando mas também presentes na cena vivenciando tudo junto com a personagem, criando assim um vínculo maior entre ficção e realidade.
-          <br>
-          <br>
+        </p>
+        <img src="./assets/images/fresh-img.jpg" alt="fleabag">
+        <p>
           Depois desse início e uma sequência de abertura (que só aparece depois de meia hora) temos a verdadeira trama do filme finalmente se desenrolando e revelando seus contornos mórbidos. Ao ser levada para a casa de Steve sob o pretexto de se prepararem para a viagem, a principal recebe uma bebida batizada de seu par. Depois de acordar, a personagem se encontra acorrentada e vivendo em cativeiro.
           Neste momento, Steve revela para ela suas reais intenções: ele vai mantê-la viva e aos poucos retirar sua carne, depois vendê-la para pessoas que tem o interesse em comê-la e o dinheiro para conseguir comprá-la.
           <br>
@@ -70,6 +100,16 @@
           Em sum a, Fresh é sem dúvida alguma uma execução decente de uma boa premissa e um filme que vale a pena ser assistido, mesmo que
           o potencial de sua trama tão cômica, trágica e mórbida não tenha sido extraído ao máximo.
           P.S.: Maior propaganda anti-Tinder da história.
+          <br>
+          <br>
+          Sendo essa a premisa, o resto do filme se resume numa saga de brutalidade e sedução em torno das tentativas da personagem principal de escapar de seu destino sórdido. Ao longo desse arco temos a presença constante de um humor negro que dita o tom do filme, estando presente tanto na forma de diálogos sobre canibalismo, em cenas de jantar contendo carne humana ou simplesmente pela energia animada e cantante do personagem Steve enquanto vive de maneira casual durante sua rotina diária mórbida.
+          Apesar das ambições artísticas da diretora, o filme peca em alguns aspectos daquilo que se propõe a ser: um terror cômico. Em primeiro lugar, o próprio roteiro é extremamente fraco, chegando a não ter fortes qualidades além da premissa incomum e dos toques esporádicos de humor negro.
+          De uma maneira geral, trata-se de um roteiro genérico, que repete muitos clichês e arquétipos já muito batidos em filmes de terror.
+          <br>
+          <br>
+          Além disso, existe um tom feminista de sátira que permeia o filme desde seu início, porém que nunca chega a ser tão bem trabalhado quanto poderia, ficando sempre nas entrelinhas em vez de criar uma crítica que fosse realmente ácida sobre a idealização feminina em relação aos homens e a maneira como isso pode ser facilmente usado por aproveitadores, algo que fica sempre em segundo plano dentro do filme.
+          Porém, deixando de lado os problemas narrativos, a direção ambiciosa de Mimi Cave merece elogios e consegue transmitir uma imponência visual mesmo nos momentos mais fracos do roteiro. A cineasta dispõe de uma variedade de recursos, desde planos simétricos até planos em primeira pessoa, trabalhando também as cores dos cenários de uma maneira impactante para causar o choque que trama e roteiro exigem, além da própria cor dos figurinos que sempre representam de alguma forma o estado de espírito ou traços da personalidade dos personagens.
+          Outro elemento muito bem usado no filme é a iluminação, com destaque para as cenas de Noa em cativeiro onde a luz é usada para marcar o sentimento de desolação e solidão sentidos pela personagem.
         </p>
         <h2>Crítica por:<a href="https://www.instagram.com/cineastadallarme/" target="_blank">@cineastadallarme</a></h2>
       </div>
