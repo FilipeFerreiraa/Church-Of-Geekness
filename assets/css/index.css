@@ -7,8 +7,9 @@
   --color-no-color: rgba(0, 0, 0, 0);
 }
 
-.html {
+html {
   -webkit-tap-highlight-color: var(--color-no-color);
+  scroll-behavior: smooth;
 }
 
 body {
