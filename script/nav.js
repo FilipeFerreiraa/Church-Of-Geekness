@@ -9,6 +9,6 @@ function toggle_menu() {
   } else if (container.classList.contains('open')) {
     container.classList.remove('open');
     container.classList.add('close');
-    header_container.style.margin = '0 0 80px 0'
+    header_container.style.margin = '0 0 80px 0';
   }
 }
