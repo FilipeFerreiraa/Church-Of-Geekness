@@ -1,14 +1,1 @@
-function toggle_menu() {
-  let container = document.getElementById('mobile-nav-container');
-  let header_container = document.getElementById('header-container');
-
-  if (container.classList.contains('close')) {
-    container.classList.remove('close');
-    container.classList.add('open');
-    header_container.style.margin = '0 0 0 0';
-  } else if (container.classList.contains('open')) {
-    container.classList.remove('open');
-    container.classList.add('close');
-    header_container.style.margin = '0 0 80px 0';
-  }
-}
+function toggle_menu(){let e=document.getElementById("mobile-nav-container"),s=document.getElementById("header-container");e.classList.contains("close")?(e.classList.remove("close"),e.classList.add("open"),s.style.margin="0 0 0 0"):e.classList.contains("open")&&(e.classList.remove("open"),e.classList.add("close"),s.style.margin="0 0 80px 0")}
