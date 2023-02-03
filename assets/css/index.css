@@ -2,8 +2,9 @@
   --color-black: rgba(0, 0, 0, 1);
   --color-white: rgba(255, 255, 255, 1);
   --color-brown-grey: rgba(73, 73, 73, 1);
-  --color-plastic-black: #0f0f0f;
-  --color-dark-orange: #db4900;
+  --color-plastic-black: rgb(15, 15, 15);
+  --color-black-semi-transparent: rgba(15, 15, 15, 0.538);
+  --color-dark-orange: rgb(219, 73, 0);
   --color-no-color: rgba(0, 0, 0, 0);
 }
 
@@ -333,29 +334,33 @@ a:visited {
   .slide-button {
     align-items: center;
     display: flex;
-    height: 30%;
+    height: 20%;
     justify-content: center;
     position: absolute;
     width: 10%;
   }
   
   .slide-prev {
-    background-color: var(--color-no-color);
-    border: none;
+    background-color: var(--color-black-semi-transparent);
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     color: var(--color-white);
     cursor: pointer;
     font-size: 5vw;
-    height: 70%;
+    height: 100%;
     width: 100%;
   }
   
   .slide-next {
-    background-color: var(--color-no-color);
-    border: none;
+    background-color: var(--color-black-semi-transparent);
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     color: var(--color-white);
     cursor: pointer;
     font-size: 5vw;
-    height: 70%;
+    height: 100%;
     width: 100%;
   }
   
@@ -551,7 +556,7 @@ a:visited {
     color: var(--color-white);
     outline: none;
     padding-top: 10px;
-    width: 88%
+    width: 88%;
   }
 
   .form-message {
@@ -560,7 +565,7 @@ a:visited {
     font-size: 1vw;
     height: 110px;
     justify-content: center;
-    width: 100%
+    width: 100%;
   }
 
   .form-message>textarea {
@@ -571,7 +576,7 @@ a:visited {
     outline: none;
     padding-top: 10px;
     resize: none;
-    width: 88%
+    width: 88%;
   }
 
   .form-submit {
@@ -720,7 +725,7 @@ a:visited {
     height: 40%;
     justify-content: center;
     position: absolute;
-    width: 5%
+    width: 5%;
   }
   
   .slide-prev {
@@ -729,7 +734,7 @@ a:visited {
     color: var(--color-white);
     cursor: pointer;
     font-size: 2vw;
-    height: 60px;
+    height: 100%;
     width: 100%
   }
   
@@ -739,7 +744,7 @@ a:visited {
     color: var(--color-white);
     cursor: pointer;
     font-size: 2vw;
-    height: 60px;
+    height: 100%;
     width: 100%
   }
   

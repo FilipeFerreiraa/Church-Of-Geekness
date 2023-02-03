@@ -28,7 +28,33 @@ a:visited {
 }
 
 @media screen and (min-width: 0px) {
-  .music-container {
+  .no-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    justify-content: center;
+    margin-bottom: 80px;
+    position: relative;
+    width: 100%;
+  }
+
+  .no-content {
+    align-items: center;
+    color: var(--color-white-semi-transparent);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 4vw;
+    font-weight: bold;
+    height: 57px;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .no-container {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +65,7 @@ a:visited {
     width: 100%
   }
 
-  .music-content {
+  .no-content {
     align-items: center;
     color: var(--color-white-semi-transparent);
     display: flex;
