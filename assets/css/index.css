@@ -425,6 +425,66 @@ a:visited {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .posts-container {
+    height: 700px;
+  }
+
+  .form-title {
+    height: 180px;
+  }
+
+  .form-container {
+    height: 730px;
+  }
+
+  .rated-container {
+    height: 900px;
+  }
+
+  .rated-image {
+    height: 300px;
+  }
+
+  .rated-left-caption {
+    height: 30%;
+  }
+
+  .slideshow-container {
+    height: 550px;
+  }
+
+  .slideshow-image {
+    height: 270px;
+    width: 65%;
+  }
+
+  .slide-dots {
+    width: 32%;
+  }
+
+  .masterpiece-container {
+    flex-direction: row;
+    height: 820px;
+  }
+
+  .masterpiece-images {
+    width: 40%;
+  }
+
+  .masterpiece-images a {
+    width: 100%;
+  }
+
+  .masterpiece-images img {
+    width: 100%;
+  }
+
+  .form-2-container {
+    height: 880px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .posts-container {
     align-items: center;

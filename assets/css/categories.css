@@ -108,6 +108,24 @@ a:visited {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .genre-container {
+    flex-direction: row;
+  }
+
+  .genre-image {
+    width: 40%;
+  }
+
+  .review-content p {
+    font-size: 2vw;
+  }
+
+  .review-content img {
+    width: 80%;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .genre-container {
     align-items: center;
